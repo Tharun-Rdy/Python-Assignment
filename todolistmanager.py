@@ -2,7 +2,7 @@ import mysql.connector
 global tasks
 tasks=[]
 try:
-     con=mysql.connector.connect(host='localhost', database='todolistmanagerdb',user='tharun',password='9490263169*')
+     con=mysql.connector.connect(host='localhost', database='todolistmanagerdb',user='tharun',password='**********')
      cursor=con.cursor()
      cursor.execute("Create table todolist(Task_Name Varchar(15),Priority Varchar(8),Due_Date int(10),Status varchar(15))")
      print("Table Created Successfully..")
